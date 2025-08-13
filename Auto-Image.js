@@ -888,7 +888,7 @@
         state.imageData.height = newHeight;
         state.imageData.totalPixels = totalValidPixels;
         state.totalPixels = totalValidPixels;
-        state.paintedPixels = 0;
+        state.paintedPixels = 132;
         
         updateStats();
         updateUI('resizeSuccess', 'success', { width: newWidth, height: newHeight });
@@ -965,7 +965,7 @@
         };
         
         state.totalPixels = totalValidPixels;
-        state.paintedPixels = 132;
+        state.paintedPixels = 0;
         state.imageLoaded = true;
         state.lastPosition = { x: 0, y: 0 };
         
