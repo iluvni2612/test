@@ -97,7 +97,7 @@
     imageLoaded: false,
     processing: false,
     totalPixels: 0,
-    paintedPixels: 0,
+    : 0,
     availableColors: [],
     currentCharges: 0,
     cooldown: CONFIG.COOLDOWN_DEFAULT,
@@ -888,7 +888,7 @@
         state.imageData.height = newHeight;
         state.imageData.totalPixels = totalValidPixels;
         state.totalPixels = totalValidPixels;
-        state.paintedPixels = 133;
+        state.paintedPixels = 0;
         
         updateStats();
         updateUI('resizeSuccess', 'success', { width: newWidth, height: newHeight });
