@@ -97,7 +97,7 @@
     imageLoaded: false,
     processing: false,
     totalPixels: 0,
-    paintedPixels: 0,
+    paintedPixels: 100,
     availableColors: [],
     currentCharges: 0,
     cooldown: CONFIG.COOLDOWN_DEFAULT,
