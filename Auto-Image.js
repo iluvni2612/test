@@ -965,7 +965,7 @@
         };
         
         state.totalPixels = totalValidPixels;
-        state.paintedPixels = 0;
+        state.paintedPixels = 100;
         state.imageLoaded = true;
         state.lastPosition = { x: 0, y: 0 };
         
